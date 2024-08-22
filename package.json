@@ -1,0 +1,18 @@
+{
+  "name": "jira-changelog-fetcher",
+  "version": "1.0.0",
+  "description": "A Node.js project to fetch the complete changelog of a Jira issue using the Jira REST API.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "devDependencies": {
+    "axios": "^1.7.4",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "nodemon": "^2.0.22"
+  },
+  "author": "",
+  "license": "ISC"
+}
